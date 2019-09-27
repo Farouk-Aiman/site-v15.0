@@ -26,6 +26,7 @@ body {
 	display: inline-block;
 	padding: 15px;
 	color: #FFF;
+	cursor: pointer;
 	font-size: 22px;
 }
 
@@ -235,15 +236,18 @@ footer .map ul {
 
 footer .map ul li {
 	font-size: 22px;
+	cursor: pointer;
 }
 
 
 footer .social {
 	padding: 50px;
+	
 }
 
 footer .social .icon {
 	font-size: 25px;
 	margin-top: 30px;
+	cursor: pointer;
 	margin-left: 10px
 }
