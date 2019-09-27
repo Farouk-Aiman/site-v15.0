@@ -18,7 +18,7 @@ body {
 }
 
 .topNav ul {
-	width: 25%;
+	width: 30%;
 	float: right
 }
 
@@ -74,6 +74,10 @@ header button {
 	color: #FFF
 }
 
+.sectionOne  .partSectionOne img {
+	height: 90px;
+}
+
 
 /* Start sectionTwo */
 
@@ -89,6 +93,7 @@ header button {
 
 .sectionTwo .partSectionTwo img {
 	width: 100%;
+	
 }
 
 .sectionTwo .partSectionTwo h2 {
@@ -173,14 +178,72 @@ footer .signUp {
 footer .signUp h2 , 
 footer .signUp p {
 	color: #FFF;
-	margin-bottom: 20px;
+	margin-bottom:  20px;
 	padding: 15px
 }
 
-.input1 {
+footer .signUp .input1 {
 	border-radius: 10px;
+	width: 100%;
+	border: none;
 	height: 33px;
 	color: #000;
 	padding: 5px;
 	margin-bottom: 15px;
+}
+
+footer .signUp button {
+	color: #333;
+	width: 100%;
+}
+
+
+
+footer .plo {
+	padding: 10px;	
+}
+
+footer .plo p {
+	padding: 15px;
+}
+
+
+
+
+footer .email {
+	padding: 100px 20px;
+}
+
+footer .email .icon {
+}
+
+footer .email p {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+
+footer .map {
+	padding: 70px 0;
+}
+
+footer .map ul {
+	width: 50%;
+	display: inline;
+	float: left
+}
+
+footer .map ul li {
+	font-size: 22px;
+}
+
+
+footer .social {
+	padding: 50px;
+}
+
+footer .social .icon {
+	font-size: 25px;
+	margin-top: 30px;
+	margin-left: 10px
 }
