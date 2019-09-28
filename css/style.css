@@ -1,11 +1,47 @@
 body {
 	background-color:#1B2330 ;
 	padding-top: 10px;
-	height: 3000px;
 }
 
+.sign {
+	margin-top: -1000px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 400;
+	padding-top: 10%;
+}
 
+.sign form {
+	background-color:  #d0d3d4 ;
+	border-radius: 20px;
+	position: relative;
+	border: 2px #FFF solid;
+	padding:50px 20px 0 20px;
+	left: -2000px;
+}
 
+.sign form .input {
+	width: 90%;
+	height: 35px;
+	color: #FFF;
+	border: 2px #FFF solid;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background: rgba(149, 165, 166 , 0.8);
+	padding: 10px;
+	margin-left: 5000px;
+}
+
+.sign form button {
+	display: none;
+	margin: 20px;
+}
 
 /* Start Top NavBar */
 
@@ -14,23 +50,69 @@ body {
 }
 
 .topNav img {
-	float: left
+	float: left;
+	height: 30px;
+	width: auto
 }
 
-.topNav ul {
+.topNav .icon {
+	color: #FFF;
+	font-size: 25px;
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	
+}
+
+.mainManu {
+	display: none;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+	padding-top: 15%;
+}
+
+.mainManu li {
+	position: relative;
 	width: 30%;
-	float: right
-}
-
-.topNav ul li {
-	display: inline-block;
+	margin: 10px auto;
+	line-height: 100%;
+	border: 1px #FFF solid;
 	padding: 15px;
 	color: #FFF;
+	background-color: #999;
+	text-align: center;
 	cursor: pointer;
 	font-size: 22px;
 }
 
+
+
 /* End Top NavBar */
+  
+
+/*top*/
+
+.top {
+	padding: 10px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 50%;
+	display: none;
+	cursor: pointer;
+	z-index: 500
+}
+
+/*top*/
 
 
 /* Start Header */
@@ -117,7 +199,7 @@ header button {
 
 .sectionThree {
 	background-color: #181F2B ;
-	padding-bottom: 250px;
+	padding-bottom: 25px;
 	padding-top: 30px;
 }
 
@@ -155,13 +237,49 @@ header button {
 
 
 
+/* Start products */
+	
+.products {
+	padding-top: 20px;
+	color: #FFF;
+}
+
+.products .prod1 {
+	background-color:  #34495e ;
+}
+
+.products .prod1 img {
+	width: 100%;
+	height: auto
+}
+
+.products .prod1 h3 {
+	
+}
+
+.products .prod1 p {
+	padding: 20px;
+}
+
+/* End products */
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer */
 
 footer {
-	color: #FFF
-	
+	color: #FFF;
+	margin-top: 200px;
+	background-color: #181F2B ;
 }
 
 footer .signUp {
